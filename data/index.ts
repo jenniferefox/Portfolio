@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: 'Wordle Clone',
     des: 'A recreation of the famous word game',
-    img: '',
+    img: './images/wordle.png',
     iconLists: [],
     link: ''
   },

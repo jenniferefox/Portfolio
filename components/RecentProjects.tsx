@@ -7,7 +7,7 @@ const RecentProjects = () => {
   return (
     <div className='py-20'>
       <h1 className='heading'>
-        A small selection of {''}
+        A small selection of {' '}
         <span className='text-purple'>
           recent projects
         </span>
@@ -17,7 +17,6 @@ const RecentProjects = () => {
         {projects.map((item) => (
         <div key={item.id} className='lg:min-h-[32.5rem] h-[25rem] flex
         items-center justify-center sm:w-96 w-[80vw]'>
-          {item.title}
           <PinContainer
               title={item.title}
               href={item.link}
@@ -29,7 +28,7 @@ const RecentProjects = () => {
                   lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src={item.link} alt={item.title} />
+                  <img src={item.img} alt={item.title} />
                 </div>
                 <img
                   src={item.img}

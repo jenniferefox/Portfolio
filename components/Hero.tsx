@@ -1,5 +1,8 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
+import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import MagicButton from './ui/MagicButton'
+import { FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -29,6 +32,19 @@ const Hero = () => {
            text-blue-100 max-w-80'>
             My Portfolio Site
           </h2>
+
+          <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Hello there hi hih hi'/>
+          <p className='text-center md:tracking-wider mb-4 text-small md:text-lg lg:text-2xl'>
+            Hi I&apos;m Jenny, I love to code!
+          </p>
+
+          <a href="#about">
+            <MagicButton
+            title='Show my work'
+            icon={<FaLocationArrow/>}
+            position='right'
+            />
+          </a>
         </div>
 
       </div>

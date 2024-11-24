@@ -11,9 +11,9 @@ export default function Home() {
     justify-center items-center flex-col overflow-hidden
     mx-auto sm:px-10 px-5'>
       <div className='max-w-7x w-full'>
-        <FloatingNav navItems={[
+        {/* <FloatingNav navItems={[
           {name: 'Home', link: '/', icon: <FaHome /> }
-        ]} />
+        ]} /> */}
         <Hero />
         <RecentProjects />
       </div>

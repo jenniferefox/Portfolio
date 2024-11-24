@@ -18,6 +18,7 @@ const RecentProjects = () => {
         <div key={item.id} className='lg:min-h-[32.5rem] h-[25rem] flex
         items-center justify-center sm:w-96 w-[80vw]'>
           <PinContainer
+              id={`project-${item.id}`}
               title={item.title}
               href={item.link}
             >

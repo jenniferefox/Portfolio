@@ -83,3 +83,8 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+
+@font-face {
+  font-family: 'YourFont';
+  src: url('/fonts/your-font.woff2') format('woff2');
+}
